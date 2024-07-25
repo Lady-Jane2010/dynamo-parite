@@ -1,0 +1,96 @@
+body {
+	margin: 0 auto;
+	width: 90%;
+}
+
+h1 {
+  color: #FFA100;
+  text-align: center;
+  font-style: italic;
+  font-size: 40px;
+} 
+
+img {
+	width: 300px;
+}
+
+p {
+	font-size: 20px;
+}
+
+li {
+	font-size: 20px;
+}
+
+q {
+	font-size: 20px;
+	font-weight: 600;
+	font-style: italic;
+}
+
+h2 {
+	font-size: 30px;
+	font-weight : bold;
+	color: #619067;
+}
+
+.brand {
+	display: flex;
+	gap: 16px;
+	justify-content: center;
+	align-items: center;
+	margin: 50px;
+}
+
+.brand img {
+	width: 150px;
+	border-radius: 50%;
+}
+
+.cards {
+	display: flex;
+}
+
+.femmes-inspirantes {
+	display: flex;
+	gap: 60px;
+}
+
+.femmes {
+	display: flex;
+	flex-direction: column;
+}
+
+.femme-img {
+	width: 300px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.qui-sommes-nous {
+ display: flex;
+ gap: 60px;
+}
+
+.nous-img {
+	width: 200px;
+	height: 300px;
+	object-fit: cover;
+}
+
+.footer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+	border-top: 1px solid black;
+	padding-top: 20px;
+	margin: 20px;
+	font-style: italic;
+}
+
+.footer img {
+	width: 100px;
+}
+
+
